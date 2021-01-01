@@ -194,14 +194,14 @@
             style="position: relative;">
     </div>
     <div class="search-bar" style="position: relative;left:32vw; top:10vw;height:40px;">
-        <form style="position:relative;" action="https://www.google.com/imghp?hl=en&tab=wi&ogbl" +q+"">
+        <form style="position:relative;" action= "https://www.google.com/search?q=" +q>
             <span class="searchHover">
                 <div class="searchHoverMessage">Search</div>
                 <input type="text" name="q" >
 
                 <button type="submit" value="Google Search"
                     style="margin-left: 60px;position: relative;background-position: 4vw;"
-                    action="https://google.com/search">Google Search</button>
+                    action=("https://google.com/searchq="+q)">Google Search</button>
                 <button action="('https://www.google.com/search?q='+q)"
                     style="margin-left: 10px;position: relative;background-position: center; left: 4vw;">I'm
                     Feeling Lucky</button>
